@@ -9,88 +9,152 @@
 </head>
 
 <body>
-
-    <nav>
-        <h1 class="logo">Sathvik</h1>
-
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
-
+    <!-- HEADER -->
     <header>
-        <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
-        <h1>Sathvik</h1>
-        <p>Aspiring Full Stack Developer</p>
+        <nav>
+            <div class="logo">Sathvik</div>
 
-        <div class="buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#" class="btn btn-outline">Resume</a>
-        </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <img src="assets/profile.jpg" alt="Profile" class="profile-img">
+
+            <h1>Sathvik</h1>
+
+            <p>
+                Passionate developer focused on building modern web applications, AI-powered tools, and clean user
+                experiences
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+
+                <a href="resume.pdf" class="btn secondary-btn" target="_blank">
+                    Resume
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
     <section id="about">
+
         <h2>About Me</h2>
 
         <p>
-            I am a passionate B.Tech student focused on becoming a skilled
-            Full Stack Developer. I enjoy building modern websites,
-            learning new technologies, and solving real-world problems through code.
+            I'm a B.Tech student passionate about software development,
+            AI tools, frontend design, and building real-world projects.
+            Currently building projects using HTML, CSS, JavaScript, Python, SQL, and modern development workflows.
         </p>
+
     </section>
 
+    <!-- SKILLS -->
     <section id="skills">
+
         <h2>Skills</h2>
 
-        <ul>
+        <ul class="skills-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Python</li>
             <li>Java</li>
             <li>SQL</li>
-            <li>GitHub</li>
+            <li>Git & GitHub</li>
         </ul>
+
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
+
         <h2>Projects</h2>
 
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
+        <div class="projects-grid">
 
-            <p>
-                Personal portfolio website built using HTML and CSS
-                with modern responsive UI design.
-            </p>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Personal portfolio website built using HTML, CSS, and JavaScript.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Github</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Chat Assistant</h3>
+
+                <p>
+                    AI-powered assistant built using Python and APIs.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Github</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Manager App</h3>
+
+                <p>
+                    Productivity web app for managing tasks and schedules.
+                </p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Github</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="project-card">
-            <h3>Upcoming Full Stack Project</h3>
-
-            <p>
-                Currently building full stack applications using modern web technologies.
-            </p>
-        </div>
     </section>
+
+    <!-- CONTACT -->
     <section id="contact">
-        <h2>Contact Me</h2>
 
-        <p>Email: sathvik752@gmail.com</p>
+        <h2>Contact</h2>
 
-        <div class="social-links">
-            <a href="http://github.com/sathvik-git-hub" target="_blank">GitHub</a>
-            <a href="http://linkedin.com/in/sathvik-velugodu-73a70a29a" target="_blank">LinkedIn</a>
+        <div class="contact-box">
+
+            <p>Email: sathvik752@gmail.com</p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/sathvik-git-hub" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://linkedin.com/in/sathvik-velugodu-73a70a29a?" target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
         </div>
+
     </section>
 
+    <!-- FOOTER -->
     <footer>
-        <p>Connect with me on GitHub and LinkedIn</p>
+        <p>Designed & Developed by Sathvik © 2026 </p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
